@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32C16981D45AE3000263F4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C16971D45AE3000263F4D /* main.m */; };
+		B32C169B1D45AE3000263F4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C169A1D45AE3000263F4D /* AppDelegate.m */; };
+		B32C169E1D45AE3000263F4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C169D1D45AE3000263F4D /* ViewController.m */; };
+		B32C16A11D45AE3000263F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C169F1D45AE3000263F4D /* Main.storyboard */; };
+		B32C16A41D45AE3000263F4D /* CountdownDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B32C16A21D45AE3000263F4D /* CountdownDemo.xcdatamodeld */; };
+		B32C16A61D45AE3000263F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32C16A51D45AE3000263F4D /* Assets.xcassets */; };
+		B32C16A91D45AE3000263F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C16A71D45AE3000263F4D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B32C16931D45AE3000263F4D /* CountdownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32C16971D45AE3000263F4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B32C16991D45AE3000263F4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B32C169A1D45AE3000263F4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B32C169C1D45AE3000263F4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B32C169D1D45AE3000263F4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B32C16A01D45AE3000263F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B32C16A31D45AE3000263F4D /* CountdownDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CountdownDemo.xcdatamodel; sourceTree = "<group>"; };
+		B32C16A51D45AE3000263F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32C16A81D45AE3000263F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B32C16AA1D45AE3000263F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32C16901D45AE3000263F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32C168A1D45AE3000263F4D = {
+			isa = PBXGroup;
+			children = (
+				B32C16951D45AE3000263F4D /* CountdownDemo */,
+				B32C16941D45AE3000263F4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B32C16941D45AE3000263F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32C16931D45AE3000263F4D /* CountdownDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32C16951D45AE3000263F4D /* CountdownDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B32C16991D45AE3000263F4D /* AppDelegate.h */,
+				B32C169A1D45AE3000263F4D /* AppDelegate.m */,
+				B32C169C1D45AE3000263F4D /* ViewController.h */,
+				B32C169D1D45AE3000263F4D /* ViewController.m */,
+				B32C169F1D45AE3000263F4D /* Main.storyboard */,
+				B32C16A51D45AE3000263F4D /* Assets.xcassets */,
+				B32C16A71D45AE3000263F4D /* LaunchScreen.storyboard */,
+				B32C16AA1D45AE3000263F4D /* Info.plist */,
+				B32C16A21D45AE3000263F4D /* CountdownDemo.xcdatamodeld */,
+				B32C16961D45AE3000263F4D /* Supporting Files */,
+			);
+			path = CountdownDemo;
+			sourceTree = "<group>";
+		};
+		B32C16961D45AE3000263F4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B32C16971D45AE3000263F4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32C16921D45AE3000263F4D /* CountdownDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32C16AD1D45AE3000263F4D /* Build configuration list for PBXNativeTarget "CountdownDemo" */;
+			buildPhases = (
+				B32C168F1D45AE3000263F4D /* Sources */,
+				B32C16901D45AE3000263F4D /* Frameworks */,
+				B32C16911D45AE3000263F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownDemo;
+			productName = CountdownDemo;
+			productReference = B32C16931D45AE3000263F4D /* CountdownDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32C168B1D45AE3000263F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rwy;
+				TargetAttributes = {
+					B32C16921D45AE3000263F4D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B32C168E1D45AE3000263F4D /* Build configuration list for PBXProject "CountdownDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32C168A1D45AE3000263F4D;
+			productRefGroup = B32C16941D45AE3000263F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32C16921D45AE3000263F4D /* CountdownDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32C16911D45AE3000263F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C16A91D45AE3000263F4D /* LaunchScreen.storyboard in Resources */,
+				B32C16A61D45AE3000263F4D /* Assets.xcassets in Resources */,
+				B32C16A11D45AE3000263F4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32C168F1D45AE3000263F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C16A41D45AE3000263F4D /* CountdownDemo.xcdatamodeld in Sources */,
+				B32C169E1D45AE3000263F4D /* ViewController.m in Sources */,
+				B32C169B1D45AE3000263F4D /* AppDelegate.m in Sources */,
+				B32C16981D45AE3000263F4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B32C169F1D45AE3000263F4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C16A01D45AE3000263F4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B32C16A71D45AE3000263F4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B32C16A81D45AE3000263F4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B32C16AB1D45AE3000263F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B32C16AC1D45AE3000263F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32C16AE1D45AE3000263F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CountdownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RWY.CountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B32C16AF1D45AE3000263F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CountdownDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RWY.CountdownDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32C168E1D45AE3000263F4D /* Build configuration list for PBXProject "CountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32C16AB1D45AE3000263F4D /* Debug */,
+				B32C16AC1D45AE3000263F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32C16AD1D45AE3000263F4D /* Build configuration list for PBXNativeTarget "CountdownDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32C16AE1D45AE3000263F4D /* Debug */,
+				B32C16AF1D45AE3000263F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B32C16A21D45AE3000263F4D /* CountdownDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B32C16A31D45AE3000263F4D /* CountdownDemo.xcdatamodel */,
+			);
+			currentVersion = B32C16A31D45AE3000263F4D /* CountdownDemo.xcdatamodel */;
+			path = CountdownDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B32C168B1D45AE3000263F4D /* Project object */;
+}
